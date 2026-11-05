@@ -1,0 +1,3 @@
+dependencies {
+    implementation 'org.reactivecommons:async-kafka-starter:7.6.0'
+}
