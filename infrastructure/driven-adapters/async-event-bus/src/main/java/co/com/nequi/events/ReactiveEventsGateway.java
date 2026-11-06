@@ -17,7 +17,7 @@ import static reactor.core.publisher.Mono.from;
 @RequiredArgsConstructor
 @EnableDomainEventBus
 public class ReactiveEventsGateway implements EventsGateway {
-    public static final String SOME_EVENT_NAME = "some.event.name";
+    public static final String SOME_EVENT_NAME = "pedidos";
     public static final String SOME_NOTIFICATION_NAME = "some.broadcast.event.name";
 
     private final DomainEventBus domainEventBus;

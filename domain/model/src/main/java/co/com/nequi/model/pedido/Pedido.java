@@ -1,4 +1,4 @@
-package co.com.nequi.model.pedidos;
+package co.com.nequi.model.pedido;
 import lombok.Builder;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,7 +10,7 @@ import lombok.Setter;
 //@NoArgsConstructor
 @AllArgsConstructor
 @Builder(toBuilder = true)
-public class Pedidos {
+public class Pedido {
     private Long id;
     private String name;
 }

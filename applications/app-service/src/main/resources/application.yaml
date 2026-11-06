@@ -12,3 +12,12 @@ spring:
       path: /h2
   profiles:
     include:
+
+reactive:
+  commons:
+    kafka:
+      app:
+        connection-properties:
+          bootstrap-servers: localhost:9092
+          security:
+            protocol: PLAINTEXT
